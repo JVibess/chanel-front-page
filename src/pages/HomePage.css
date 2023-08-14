@@ -1,0 +1,120 @@
+.content button {
+  position: absolute;
+  top: 90%;
+  right: 45%;
+  color: white;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 16px;
+  color: black;
+  padding: 15px 30px;
+}
+.content button:hover {
+  cursor: pointer;
+}
+.text-fashion {
+  position: absolute;
+  top: 75%;
+  right: 47%;
+  color: white;
+  text-align: center;
+}
+.text-fine {
+  position: absolute;
+  top: 75%;
+  right: 44%;
+  color: white;
+  text-align: center;
+}
+.text-big-Met {
+  position: absolute;
+  top: 80%;
+  right: 38%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.text-big-n5 {
+  position: absolute;
+  top: 80%;
+  right: 48%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.text-eye {
+  position: absolute;
+  top: 75%;
+  right: 46%;
+  color: white;
+  text-align: center;
+}
+.text-big-camp {
+  position: absolute;
+  top: 80%;
+  right: 42%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.text-skin {
+  position: absolute;
+  top: 75%;
+  right: 45%;
+  color: white;
+  text-align: center;
+}
+.text-frag {
+  position: absolute;
+  top: 75%;
+  right: 45%;
+  color: white;
+  text-align: center;
+}
+.text-big-bleu {
+  position: absolute;
+  top: 80%;
+  right: 42%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.text-big-sub {
+  position: absolute;
+  top: 80%;
+  right: 38%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.text-big-j12 {
+  position: absolute;
+  top: 80%;
+  right: 49%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.text-watch {
+  position: absolute;
+  top: 75%;
+  right: 46%;
+  color: white;
+  text-align: center;
+}
+.text-big-collec {
+  position: absolute;
+  top: 80%;
+  right: 40%;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+.text-high {
+  position: absolute;
+  top: 75%;
+  right: 43%;
+  color: white;
+  text-align: center;
+}

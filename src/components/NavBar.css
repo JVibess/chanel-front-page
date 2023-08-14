@@ -1,0 +1,86 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 110px;
+  box-shadow: 1px 1px 3px 3px rgb(61, 60, 60, 0.4);
+  z-index: 200;
+  background-color: white;
+  letter-spacing: 0.2rem;
+}
+.menu {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  text-decoration-skip-ink: none;
+}
+.menu:hover {
+  text-decoration: underline !important;
+  text-underline-offset: 10px !important;
+  font-weight: bold;
+}
+header .logo {
+  font-size: 40px;
+  position: absolute;
+  margin-bottom: 35px;
+  font-weight: bold;
+}
+
+header .display-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 63px;
+  margin-left: 130px;
+}
+
+.display-menu .menu {
+  padding: 0 15px;
+  text-decoration: none;
+}
+.toggle {
+  background-color: white;
+  color: black;
+  display: none;
+  border: none;
+  font-size: 12px;
+  height: 40px;
+  width: 35px;
+  margin-right: 60px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 3px;
+  top: 0;
+  left: 0;
+}
+.hompage-items {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 10px; /* Adjust the value as needed */
+  margin-bottom: 100px;
+  margin-left: 80px;
+  justify-content: space-evenly;
+}
+
+.toggle :hover {
+  background-color: rgb(233, 233, 233);
+}
+
+@media screen and (max-width: 900px) {
+  header .display-menu {
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    background-color: #eae8e8;
+    flex-direction: column;
+  }
+  .display-menu .menu {
+    padding: 15px;
+  }
+  header .toggle {
+    display: block;
+  }
+}
